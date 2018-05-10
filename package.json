@@ -1,0 +1,24 @@
+{
+  "name": "bdm",
+  "version": "1.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "exec:main": "tsc && node ./src/main.js",
+    "exec:main-calendar": "tsc && node ./src/main_with_calender.js",
+    "exec:calendar": "tsc && node ./src/quickstart.js",
+    "exec:main-mailer": "tsc && node ./src/main_without_port.js"
+  },
+  "dependencies": {
+    "@types/node": "^8.5.1",
+    "@types/nodemailer": "^4.3.1",
+    "@types/request": "^2.0.9",
+    "@types/serialport": "^6.0.0",
+    "google-auth-library": "^0.12.0",
+    "googleapis": "^23.0.0",
+    "node": "^6.14.2",
+    "nodemailer": "^4.4.1",
+    "serialport": "^6.0.4"
+  }
+}

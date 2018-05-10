@@ -1,0 +1,9 @@
+node_modules
+.vscode
+yarn.lock
+.DS_Store
+client_secret.json
+*.js
+*.js.map
+*.mp4
+*.key
